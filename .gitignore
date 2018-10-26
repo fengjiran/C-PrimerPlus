@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# VSCODE settings
+.sync/
+.vscode/
