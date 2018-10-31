@@ -20,4 +20,18 @@ int main()
     cout << " dollars deposited.\nPool Sam!" << endl;
 
     sam = ZERO;
+    sue = ZERO;
+    cout << "Sam has " << sam << " dollars and Sue has " << sue;
+    cout << " dollars deposited." << endl;
+    cout << "Take $1 from each account." << endl
+         << "Now ";
+
+    sam = sam - 1;
+    sue = sue - 1;
+
+    cout << "Sam has " << sam << " dollars and Sue has " << sue;
+    cout << " dollars deposited." << endl
+         << "Lucky Sue!" << endl;
+
+    return 0;
 }
