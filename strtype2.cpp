@@ -20,7 +20,7 @@ int main()
     s1 += s2;
     cout << "s1 += s2 yields s1 = " << s1 << endl;
     s2 += " for a day";
-    cout << "s2 += \" for a day\"yields s2 = " << s2 << endl;
+    cout << "s2 += \" for a day\" yields s2 = " << s2 << endl;
 
     return 0;
 }
