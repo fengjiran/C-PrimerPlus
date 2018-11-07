@@ -8,6 +8,7 @@ int main()
     string str1;
     string str2 = "panther";
 
+    cout << (int *)"hello";
     cout << "Enter a kind of feline: ";
     cin >> charr1;
     cout << "Enter another kind of feline: ";
