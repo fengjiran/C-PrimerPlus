@@ -8,17 +8,18 @@ int main()
     string str1;
     string str2 = "panther";
 
-    cout << (int *)"hello";
-    cout << "Enter a kind of feline: ";
-    cin >> charr1;
-    cout << "Enter another kind of feline: ";
-    cin >> str1;
-    cout << "Here are some felines:\n";
-    cout << charr1 << " " << charr2 << " "
-         << str1 << " " << str2
-         << endl;
-    cout << "The third letter in " << charr2 << " is "
-         << str2[2] << endl;
+    cout << (int *)"hello" << endl;
+    cout << str1 << endl;
+    // cout << "Enter a kind of feline: ";
+    // cin >> charr1;
+    // cout << "Enter another kind of feline: ";
+    // cin >> str1;
+    // cout << "Here are some felines:\n";
+    // cout << charr1 << " " << charr2 << " "
+    //      << str1 << " " << str2
+    //      << endl;
+    // cout << "The third letter in " << charr2 << " is "
+    //      << str2[2] << endl;
 
     return 0;
 }
